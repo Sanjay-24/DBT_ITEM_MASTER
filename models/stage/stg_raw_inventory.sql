@@ -1,5 +1,5 @@
 {%- set yaml_metadata -%}
-source_model: 'raw_inventory'
+source_model: 'inv'
 derived_columns:
     primarykey:'IMITM'
 
