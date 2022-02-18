@@ -1,3 +1,8 @@
+{{ config(
+    materialized="table",
+    schema="raw_stage"
+) }}
+
 Select 
 Item.IMUOM1,
 Item.IMLITM,
